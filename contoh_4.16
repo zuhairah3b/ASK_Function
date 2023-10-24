@@ -1,0 +1,9 @@
+def kira_isipadu_pyramid(sisi, tinggi):
+    isipadu_pyramid = (1/3) * (sisi * sisi) * tinggi
+    return (isipadu_pyramid)
+    
+print ("Kira Isipadu Pyramid")
+sisi = int(input("Masukkan ukuran sisi tapak pyramid: "))
+tinggi = int(input("Masukkan tinggi pyramid"))
+
+print("Isipadu Pyramid=", kira_isipadu_pyramid(sisi, tinggi)) 
